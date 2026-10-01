@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "import_id": "libmobile-repository-7f6f338",
+  "source": "libmobile Git repository",
+  "source_ref": "https://github.com/zenaror/libmobile/tree/7f6f338d45f6a6c61ac8561f16e77275ea44d207",
+  "project_scope": "libmobile",
+  "imported_at": "2026-10-01T00:00:00+00:00",
+  "method": "selected API contract, repository role, and recent Git change; no full chat history was imported",
+  "records": ["libmobile-project-role", "libmobile-socket-lifecycle-contract", "libmobile-p2p-close-revert"]
+}

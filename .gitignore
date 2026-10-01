@@ -25,3 +25,6 @@
 /config.status
 /libtool
 stamp-*
+
+# Índice derivado do OMM; a memória canônica fica em memory/
+.omm/

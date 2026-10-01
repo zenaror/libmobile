@@ -1,0 +1,1 @@
+Consulte [OMM.md](OMM.md) e a memória dos escopos `global` e `libmobile` antes de retomar decisões anteriores. Em tarefas de REON/Libmobile/Mobile Adapter GB, use a skill `reon-libmobile-expert` se estiver disponível. Confirme as informações no código e nas fontes citadas.

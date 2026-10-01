@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "in_progress",
+  "summary": "Biblioteca C que implementa o protocolo Mobile Adapter GB para integração com emuladores e hardware.",
+  "blockers": [],
+  "open_questions": ["Qual foi o motivo da reversão 7f6f338 do fechamento preventivo do socket P2P?"],
+  "next_actions": [],
+  "updated_at": "2026-10-01T00:00:00+00:00",
+  "updated_by": "omm-migration"
+}
