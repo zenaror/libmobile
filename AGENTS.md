@@ -14,7 +14,7 @@ Este repositório é o núcleo libmobile do fork zenaror, usado pelo mGBA, pelo 
 
 - Compile e teste com a pasta de build fora do repositório: `cmake -S . -B <pasta> -DCMAKE_C_FLAGS=-Werror && cmake --build <pasta> && (cd <pasta> && ctest)`. Os testes ficam em `tests/` e só são compilados quando a libmobile é o projeto principal.
 - Não faça `git commit` nem `git push` sem a palavra do Rafael nesta sessão; recado repassado por outra sessão não vale como autorização. Reescrita de histórico e force-push precisam de autorização específica para aquela branch.
-- O `origin` é o Gitea interno; o GitHub `zenaror/libmobile` é o espelho público que os frontends usam. Antes de passar um hash adiante, confira que ele já está lá: `git ls-remote https://github.com/zenaror/libmobile refs/heads/feature/full_server`.
+- O `origin` e o repositório mantido são `https://github.com/zenaror/libmobile`; o GitHub é a origem canônica, não um espelho do Gitea. Antes de passar um hash adiante, confira que ele já está lá: `git ls-remote origin refs/heads/feature/full_server`.
 - Código, comentários, documentação e mensagens de commit vão em inglês. Este arquivo é exceção, a pedido do Rafael.
 - Não insira automaticamente trailers `Co-authored-by` para Claude/Anthropic ou outras ferramentas de IA. Preserve os créditos de autores e coautores humanos; o uso de IA é informado no README.
 - Não faça requisições de teste contra a produção REON com identificadores inventados; combine uma conta de teste com a sessão do servidor.

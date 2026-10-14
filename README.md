@@ -48,7 +48,7 @@ The existing root layout is retained:
 | Regression fixtures and executables | [tests/](tests/), registered by [CMakeLists.txt](CMakeLists.txt) |
 | Build definitions and generated configuration templates | [CMakeLists.txt](CMakeLists.txt), [Makefile.am](Makefile.am), [configure.ac](configure.ac), [meson.build](meson.build) and `mobile_config.*.h.in` |
 
-Planning, open questions and handoff are maintained in OMM scope `libmobile`; implementation contracts and format decisions remain in the source files listed above. Consumer updates are coordinated separately: libmobile-bgb and PicoAdapterGB pin a submodule commit, while mGBA vendors a source copy. A core commit must be available on the public mirror before consumers can adopt it.
+Planning, open questions and handoff are maintained in OMM scope `libmobile`; implementation contracts and format decisions remain in the source files listed above. Consumer updates are coordinated separately: libmobile-bgb and PicoAdapterGB pin a submodule commit, while mGBA vendors a source copy. [zenaror/libmobile on GitHub](https://github.com/zenaror/libmobile) is the canonical repository and the `origin` remote. A core commit must be available there before consumers can adopt it.
 
 
 AI assistance
