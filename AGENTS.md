@@ -2,6 +2,8 @@
 
 Este repositório é o núcleo libmobile do fork zenaror, usado pelo mGBA, pelo libmobile-bgb e pelo PicoAdapterGB com o servidor REON. A linha ativa é a branch `feature/full_server`; o `master` acompanha o upstream REONTeam/libmobile.
 
+Não faça commits próprios em `master`: essa branch deve apontar para o mesmo commit do `master` de `https://github.com/REONTeam/libmobile`. Alterações do fork ficam em `feature/full_server`; `feature/custom-mail-port` só entra no trabalho quando o escopo da tarefa a incluir explicitamente.
+
 ## Antes de começar
 
 1. Consulte a memória interna do seu agente sobre este projeto. Depois consulte a OMM no escopo `libmobile` e, quando ajudar, no `global`; leia `project-base` via `get_role` na retomada e reaproveite enquanto vigente. Essa é a ordem de consulta, não de autoridade: confirme os fatos no código, no Git e nos testes.
